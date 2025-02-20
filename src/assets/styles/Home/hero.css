@@ -25,6 +25,7 @@ section,
   text-align: center;
   padding-bottom: 60px;
   position: relative;
+
 }
 
 .section-title h2 {
@@ -68,6 +69,8 @@ section,
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
+  text-align: right;
+
 }
 
 .hero p {
@@ -75,6 +78,7 @@ section,
   margin: 5px 0 30px 0;
   font-size: 20px;
   font-weight: 400;
+  text-align: right;
 }
 
 .hero .btn-get-started {
@@ -94,7 +98,7 @@ section,
 }
 
 .hero .btn-get-started i {
-  margin-left: 5px;
+  margin-right: 5px;
   font-size: 18px;
   transition: 0.3s;
 }
@@ -106,7 +110,7 @@ section,
 }
 
 .hero .btn-get-started:hover i {
-  transform: translateX(5px);
+  transform: translateX(-5px);
 }
 
 .hero .btn-watch-video {

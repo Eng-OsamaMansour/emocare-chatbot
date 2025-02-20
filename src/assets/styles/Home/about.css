@@ -4,23 +4,27 @@
 .about .content {
     background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
     padding: 40px;
+    
   }
   
   .about .content h3 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     color: var(--accent-color);
     text-transform: uppercase;
+    text-align: right;
   }
   
   .about .content h2 {
     font-size: 24px;
     font-weight: 700;
+    text-align: right;
   }
   
   .about .content p {
     margin: 15px 0 30px 0;
     line-height: 24px;
+    text-align: right;
   }
   
   .about .content .btn-read-more {
@@ -38,14 +42,15 @@
     font-weight: 600;
     font-size: 16px;
     letter-spacing: 1px;
+    margin-left: 5px;
   }
   
   .about .content .btn-read-more i {
-    margin-left: 5px;
+
     font-size: 18px;
     transition: 0.3s;
   }
-  
+    
   .about .content .btn-read-more:hover i {
-    transform: translateX(5px);
+    transform: translateX(-5px);
   }

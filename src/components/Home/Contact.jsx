@@ -47,8 +47,8 @@ const Contact = () => {
       <section id="contact" className="contact section">
         {/* Section Title */}
         <div className="container section-title" data-aos="fade-up">
-          <h2>Contact</h2>
-          <p>Get in Touch</p>
+          <h2>اتصل بنا</h2>
+          <p>ابقى على تواصل</p>
         </div>
         {/* End Section Title */}
         <div className="container" data-aos="fade-up" data-aos-delay={100}>
@@ -58,16 +58,16 @@ const Contact = () => {
                 <div className="col-md-6">
                   <div className="info-item" data-aos="fade" data-aos-delay={200}>
                     <i className="bi bi-geo-alt" />
-                    <h3>Address</h3>
-                    <p>123 Wellness Street</p>
-                    <p>New York, NY 10001</p>
+                    <h3>العنوان</h3>
+                    <p>123 شارع العافية</p>
+                    <p>نيويورك، NY 10001</p>
                   </div>
                 </div>
                 {/* End Info Item */}
                 <div className="col-md-6">
                   <div className="info-item" data-aos="fade" data-aos-delay={300}>
                     <i className="bi bi-telephone" />
-                    <h3>Call Us</h3>
+                    <h3>اتصل بنا</h3>
                     <p>+1 234 567 890</p>
                     <p>+1 987 654 321</p>
                   </div>
@@ -76,7 +76,7 @@ const Contact = () => {
                 <div className="col-md-6">
                   <div className="info-item" data-aos="fade" data-aos-delay={400}>
                     <i className="bi bi-envelope" />
-                    <h3>Email Us</h3>
+                    <h3>راسلنا عبر البريد الإلكتروني</h3>
                     <p>support@emocare.com</p>
                     <p>info@emocare.com</p>
                   </div>
@@ -85,9 +85,9 @@ const Contact = () => {
                 <div className="col-md-6">
                   <div className="info-item" data-aos="fade" data-aos-delay={500}>
                     <i className="bi bi-clock" />
-                    <h3>Open Hours</h3>
-                    <p>Monday - Friday</p>
-                    <p>9:00 AM - 6:00 PM</p>
+                    <h3>ساعات العمل</h3>
+                    <p>الاثنين - الجمعة</p>
+                    <p>9:00 صباحًا - 6:00 مساءً</p>
                   </div>
                 </div>
                 {/* End Info Item */}
@@ -107,7 +107,7 @@ const Contact = () => {
                       type="text"
                       name="from_name" 
                       className="form-control"
-                      placeholder="Your Name"
+                      placeholder="اسمك"
                       required
                     />
                   </div>
@@ -116,7 +116,7 @@ const Contact = () => {
                       type="email"
                       className="form-control"
                       name="from_email" 
-                      placeholder="Your Email"
+                      placeholder="بريدك الإلكتروني"
                       required
                     />
                   </div>
@@ -125,7 +125,7 @@ const Contact = () => {
                       type="text"
                       className="form-control"
                       name="subject" 
-                      placeholder="Subject"
+                      placeholder="الموضوع"
                       required
                     />
                   </div>
@@ -134,17 +134,17 @@ const Contact = () => {
                       className="form-control"
                       name="message" 
                       rows={6}
-                      placeholder="Message"
+                      placeholder="رسالة"
                       required
                       defaultValue={""}
                     />
                   </div>
                   <div className="col-12 text-center">
-                    <div className="loading">Loading</div>
+                    <div className="loading">جارٍ التحميل</div>
                     <div className="sent-message">
-                      Your message has been sent. Thank you!
+                      تم إرسال رسالتك. شكرا لك!
                     </div>
-                    <button type="submit">Send Message</button>
+                    <button type="submit">إرسال الرسالة</button>
                   </div>
                 </div>
               </form>

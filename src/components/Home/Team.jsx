@@ -8,8 +8,8 @@ const Team = () => {
       <section id="team" className="team section">
         {/* Section Title */}
         <div className="container section-title" data-aos="fade-up">
-          <h2>Team</h2>
-          <p>Meet Our Dedicated Team</p>
+          <h2>الفريق</h2>
+          <p>تعرف على فريقنا المخصص</p>
         </div>
         {/* End Section Title */}
         <div className="container">
@@ -23,7 +23,7 @@ const Team = () => {
               <div className="team-member">
                 <div className="member-img">
                   <img
-                    src="/assets/img/team/team-1.jpg"
+                    src="/assets/img/team/Osama.jpg"
                     className="img-fluid"
                     alt="Osama Mansour"
                   />
@@ -43,10 +43,10 @@ const Team = () => {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Osama Mansour</h4>
+                  <h4>أسامة منصور</h4>
                   <span>AI Programming with Python</span>
                   <p>
-                    Osama, our team leader, oversees the AI development and ensures our chatbot delivers cutting-edge solutions.
+                    أسامة، قائد فريقنا، يشرف على تطوير الذكاء الاصطناعي ويضمن أن يقدم روبوت الدردشة لدينا حلولًا متقدمة.
                   </p>
                 </div>
               </div>
@@ -82,10 +82,10 @@ const Team = () => {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Haneen Alhajali</h4>
+                  <h4>حنين الحاج علي</h4>
                   <span>Front End Web Development</span>
                   <p>
-                    Haneen is a skilled front-end developer who ensures our platform is user-friendly, visually appealing, and responsive.
+                    حنين هي مطورة واجهات أمامية ماهرة تضمن أن تكون منصتنا سهلة الاستخدام وجذابة بصريًا ومتجاوبة.
                   </p>
                 </div>
               </div>
@@ -121,10 +121,10 @@ const Team = () => {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Hamza Barabrah</h4>
+                  <h4>حمزة برابرة</h4>
                   <span>Data Analyst</span>
                   <p>
-                    Hamza specializes in data analysis, helping us make data-driven decisions to improve our AI chatbot's performance.
+                    حمزة متخصص في تحليل البيانات، مما يساعدنا على اتخاذ قرارات مستندة إلى البيانات لتحسين أداء روبوت الدردشة الخاص بنا.
                   </p>
                 </div>
               </div>
@@ -160,10 +160,10 @@ const Team = () => {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Sarah Hassouneh</h4>
+                  <h4>سارة حسونة</h4>
                   <span>AI Programming with Python</span>
                   <p>
-                    Sarah is passionate about AI and contributes to the development of our chatbot's intelligent features.
+                    سارة شغوفة بالذكاء الاصطناعي وتساهم في تطوير الميزات الذكية لروبوت الدردشة الخاص بنا.
                   </p>
                 </div>
               </div>
@@ -199,10 +199,10 @@ const Team = () => {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Yasmin Shkarnah</h4>
+                  <h4>ياسمين شكرنة</h4>
                   <span>Intro to Programming</span>
                   <p>
-                    Yasmin brings fresh perspectives and foundational programming skills to our team.
+                    ياسمين تجلب وجهات نظر جديدة ومهارات برمجة أساسية لفريقنا.
                   </p>
                 </div>
               </div>
@@ -238,10 +238,10 @@ const Team = () => {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Hamza Ghaith</h4>
+                  <h4>حمزة غيث</h4>
                   <span>AI Programming with Python</span>
                   <p>
-                    Hamza, a medical student with a passion for programming, contributes to the AI development of our chatbot.
+                    حمزة، طالب طب لديه شغف بالبرمجة، يساهم في تطوير الذكاء الاصطناعي لروبوت الدردشة الخاص بنا.
                   </p>
                 </div>
               </div>
@@ -277,10 +277,10 @@ const Team = () => {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Abdullah Abu Aiysh</h4>
+                  <h4>عبد الله أبو عيش</h4>
                   <span>Intro to Programming</span>
                   <p>
-                    Abdullah brings foundational programming expertise, helping bridge the gap between ideas and implementation.
+                    عبد الله يجلب خبرة برمجة أساسية، مما يساعد على سد الفجوة بين الأفكار والتنفيذ.
                   </p>
                 </div>
               </div>
@@ -316,10 +316,10 @@ const Team = () => {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Aziz Issa</h4>
+                  <h4>عزيز عيسى</h4>
                   <span>Front End Web Development</span>
                   <p>
-                    Aziz focuses on creating seamless user experiences, ensuring our platform is intuitive and accessible.
+                    عزيز يركز على إنشاء تجارب مستخدم سلسة، مما يضمن أن تكون منصتنا بديهية وسهلة الوصول.
                   </p>
                 </div>
               </div>

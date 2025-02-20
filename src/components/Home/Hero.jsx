@@ -9,10 +9,10 @@ const Hero = () => {
         <div className="row gy-4">
           <div className="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
             <h1 data-aos="fade-up">
-              Your Mental Health, Our Priority
+              صحتك العقلية هي أولويتنا
             </h1>
             <p data-aos="fade-up" data-aos-delay={100}>
-              EmoCare provides AI-powered mental health support to help you feel better, anytime, anywhere.
+           .الدعم الصحي العقلي المدعوم بالذكاء الاصطناعي لمساعدتك على الشعور بالتحسن في أي وقت، وفي أي مكان
             </p>
             <div
               className="d-flex flex-column flex-md-row"
@@ -20,7 +20,8 @@ const Hero = () => {
               data-aos-delay={200}
             >
               <a href="/login" className="btn-get-started">
-                Get Started <i className="bi bi-arrow-right" />
+              <i className="bi bi-arrow-left  " />
+                البدء                
               </a>
               <a
                 href="https://www.youtube.com/watch?v=Y7f98aduVJ8"

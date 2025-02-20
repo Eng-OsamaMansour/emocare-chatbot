@@ -9,35 +9,36 @@ const Header = () => {
           <img src="/assets/img/emocare-logo.png" alt="EmoCare Logo" />
           <h1 className="sitename">EmoCare</h1>
         </a>
+        <a className="btn-getstarted flex-md-shrink-0" href="/login">
+          البدء
+        </a>
         <nav id="navmenu" className="navmenu">
           <ul>
             <li>
+              <a href="#contact">تواصل معنا</a>
+            </li>
+            <li>
+              <a href="#team">فريق العمل</a>
+            </li>
+            <li>
+              <a href="#pricing">الاسعار</a>
+            </li>
+            <li>
+              <a href="#services">الخدمات</a>
+            </li>
+            <li>
+              <a href="#about">من نحن</a>
+            </li>
+            <li>
               <a href="#hero" className="active">
-                Home
+                 الرئسية
                 <br />
               </a>
-            </li>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#services">Services</a>
-            </li>
-            <li>
-              <a href="#pricing">Pricing</a>
-            </li>
-            <li>
-              <a href="#team">Team</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
             </li>
           </ul>
           <i className="mobile-nav-toggle d-xl-none bi bi-list" />
         </nav>
-        <a className="btn-getstarted flex-md-shrink-0" href="/login">
-          Get Started
-        </a>
+
       </div>
     </header>
   );

@@ -12,12 +12,12 @@ const Login = () => {
 
   return (
     <AuthForm
-      title="Welcome Back!"
-      buttonText="Log In"
+      title="😊اهلا بك مجددا"
+      buttonText="تسجبيل الدخول"
       onSubmit={handleLogin}
-      linkText="Don't have an account?"
+      linkText="ليس لديك حساب؟"
       linkTo="/signup"
-      linkAction="Sign Up"
+      linkAction="انشاء حساب جديد"
     />
   );
 };

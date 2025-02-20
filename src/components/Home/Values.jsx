@@ -8,9 +8,9 @@ const Values = () => {
       <section id="values" className="values section">
         {/* Section Title */}
         <div className="container section-title" data-aos="fade-up">
-          <h2>Our Values</h2>
+          <h2>قيمنا</h2>
           <p>
-            What We Stand For
+          ما نمثله
             <br />
           </p>
         </div>
@@ -20,9 +20,9 @@ const Values = () => {
             <div className="col-lg-4" data-aos="fade-up" data-aos-delay={100}>
               <div className="card">
                 <img src="assets/img/values-1.png" className="img-fluid" alt="Empathy" />
-                <h3>Empathy</h3>
+                <h3>التعاطف</h3>
                 <p>
-                  We prioritize understanding and compassion in every interaction, ensuring users feel heard and supported.
+                  نحن نعطي الأولوية للتفاهم والتعاطف في كل تفاعل، لضمان شعور المستخدمين بالدعم والاهمية
                 </p>
               </div>
             </div>
@@ -30,9 +30,9 @@ const Values = () => {
             <div className="col-lg-4" data-aos="fade-up" data-aos-delay={200}>
               <div className="card">
                 <img src="assets/img/values-2.png" className="img-fluid" alt="Innovation" />
-                <h3>Innovation</h3>
+                <h3>الابتكار</h3>
                 <p>
-                  We leverage cutting-edge technology to provide effective and accessible mental health solutions.
+                نحن نستفيد من التكنولوجيا المتطورة لتوفير حلول فعالة وسهلة الوصول للصحة العقلية
                 </p>
               </div>
             </div>
@@ -40,9 +40,9 @@ const Values = () => {
             <div className="col-lg-4" data-aos="fade-up" data-aos-delay={300}>
               <div className="card">
                 <img src="assets/img/values-3.png" className="img-fluid" alt="Integrity" />
-                <h3>Integrity</h3>
+                <h3>النزاهة</h3>
                 <p>
-                  We are committed to transparency, honesty, and ethical practices in everything we do.
+                نحن ملتزمون بالشفافية والصدق والممارسات الأخلاقية في كل ما نقوم به.
                 </p>
               </div>
             </div>

@@ -50,31 +50,31 @@ const Sidebar = () => {
               onClick={() => handleNavigate("/chat")}
             >
               <i className="bi bi-plus-circle"></i>
-              <span>New chat</span>
+              <span>دردشة جديدة</span>
             </button>
         </div>
 
         {/* Slider Content */}
         <div className="slider-content">
           <div className="one-his">
-            <p>Today</p>
+            <p>اليوم</p>
             <div className="search">
               <i className="bi bi-chat-left"></i>
-              <p>Stress Management Tips</p>
+              <p>نصائح إدارة التوتر</p>
             </div>
           </div>
           <div className="one-his">
-            <p>Yesterday</p>
+            <p>أمس</p>
             <div className="search">
               <i className="bi bi-chat-left"></i>
-              <p>Mindfulness Exercises</p>
+              <p>تمارين اليقظة</p>
             </div>
           </div>
           <div className="one-his">
-            <p>1 Week ago</p>
+            <p>منذ أسبوع</p>
             <div className="search">
               <i className="bi bi-chat-left"></i>
-              <p>Coping with Anxiety</p>
+              <p>التعامل مع القلق</p>
             </div>
           </div>
         </div>
@@ -87,29 +87,29 @@ const Sidebar = () => {
               onClick={() => handleNavigate("/mood-tracker")}
             >
               <i className="bi bi-emoji-smile"></i>
-              <span>Mood Tracker</span>
+              <span>متتبع المزاج</span>
             </button>
             <button
               className="sidebar-button animated-button"
               onClick={() => handleNavigate("/doctor-chat")}
             >
               <i className="bi bi-person-lines-fill"></i>
-              <span>Doctor Chat</span>
+              <span>دردشة الطبيب</span>
             </button>
             <button
               className="sidebar-button upgrade-button"
               onClick={() => handleNavigate("/coming-soon")}
             >
               <i className="bi bi-star-fill"></i>
-              <span>Upgrade to Plus</span>
+              <span>الترقية إلى بلس</span>
             </button>
           </div>
 
           {/* User Profile Section */}
           <div className="second bottom-first">
             <div className="upgrade">
-              <div className="g">H</div>
-              <p>Haneen Alhajali</p>
+              <div className="g">ح</div>
+              <p>حنين الحاج علي</p>
             </div>
             <i className="bi bi-three-dots"></i>
           </div>

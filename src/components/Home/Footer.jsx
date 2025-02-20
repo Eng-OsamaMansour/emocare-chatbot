@@ -9,57 +9,57 @@ const Footer = () => {
         <div className="row gy-4">
           <div className="col-lg-4 col-md-6 footer-about">
             <a href="index.html" className="d-flex align-items-center">
-              <span className="sitename">EmoCare</span>
+              <span className="sitename">إيموكير</span>
             </a>
             <div className="footer-contact pt-3">
-              <p>123 Wellness Street</p>
-              <p>New York, NY 10001</p>
+              <p>123 شارع العافية</p>
+              <p>نيويورك، NY 10001</p>
               <p className="mt-3">
-                <strong>Phone:</strong> <span>+1 234 567 890</span>
+                <strong>الهاتف:</strong> <span>+1 234 567 890</span>
               </p>
               <p>
-                <strong>Email:</strong> <span>support@emocare.com</span>
+                <strong>البريد الإلكتروني:</strong> <span>support@emocare.com</span>
               </p>
             </div>
           </div>
           <div className="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
+            <h4>روابط مفيدة</h4>
             <ul>
               <li>
-                <i className="bi bi-chevron-right" /> <a href="#">Home</a>
+                <i className="bi bi-chevron-right" /> <a href="#">الرئيسية</a>
               </li>
               <li>
-                <i className="bi bi-chevron-right" /> <a href="#">About Us</a>
+                <i className="bi bi-chevron-right" /> <a href="#">من نحن</a>
               </li>
               <li>
-                <i className="bi bi-chevron-right" /> <a href="#">Services</a>
+                <i className="bi bi-chevron-right" /> <a href="#">خدماتنا</a>
               </li>
               <li>
-                <i className="bi bi-chevron-right" /> <a href="#">The Team</a>
+                <i className="bi bi-chevron-right" /> <a href="#">الفريق</a>
               </li>
             </ul>
           </div>
           <div className="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
+            <h4>خدماتنا</h4>
             <ul>
               <li>
-                <i className="bi bi-chevron-right" /> <a href="#">Chatbot</a>
+                <i className="bi bi-chevron-right" /> <a href="#">الدردشة الآلية</a>
               </li>
               <li>
-                <i className="bi bi-chevron-right" /> <a href="#">Voice Chat</a>
+                <i className="bi bi-chevron-right" /> <a href="#">الدردشة الصوتية</a>
               </li>
               <li>
-                <i className="bi bi-chevron-right" /> <a href="#">Chat with Doctor</a>
+                <i className="bi bi-chevron-right" /> <a href="#">الدردشة مع الطبيب</a>
               </li>
               <li>
-                <i className="bi bi-chevron-right" /> <a href="#">Mood Tracker</a>
+                <i className="bi bi-chevron-right" /> <a href="#">متتبع المزاج</a>
               </li>
             </ul>
           </div>
           <div className="col-lg-4 col-md-12">
-            <h4>Follow Us</h4>
+            <h4>تابعنا</h4>
             <p>
-              Stay connected with us for the latest updates and mental health tips.
+              ابق على تواصل معنا للحصول على آخر التحديثات ونصائح الصحة النفسية.
             </p>
             <div className="social-links d-flex">
               <a href="">
@@ -80,12 +80,12 @@ const Footer = () => {
       </div>
       <div className="container copyright text-center mt-4">
         <p>
-          © <span>Copyright</span>{" "}
-          <strong className="px-1 sitename">EmoCare</strong>{" "}
-          <span>All Rights Reserved</span>
+          © <span>حقوق النشر</span>{" "}
+          <strong className="px-1 sitename">إيموكير</strong>{" "}
+          <span>جميع الحقوق محفوظة</span>
         </p>
         <div className="credits">
-          Designed by <a href="">Haneen</a>
+          تصميم بواسطة <a href="">حنين</a>
         </div>
       </div>
     </footer>

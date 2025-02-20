@@ -1,23 +1,32 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import AuthForm from "../../components/AuthForm";
+import SignForm from "../../components/SignUp";
 
 const Signup = () => {
   const navigate = useNavigate();
 
-  const handleSignup = (email, password) => {
-    console.log("Signing up with:", email, password);
-    navigate("/chat");
+  const handleSignup = (email, password, username, address, phone, firstname, lastname, dateofbirth, gender, role) => {
+    console.log("Signing up with:", email, password, username, address, phone, firstname, lastname, dateofbirth, gender, role);
+    navigate("/login");
   };
 
   return (
-    <AuthForm
-      title="Create an Account"
-      buttonText="Sign Up"
+    <SignForm
+      title="انشاء حساب "
+      buttonText=" انشاء"
       onSubmit={handleSignup}
-      linkText="Already have an account?"
+      linkText="لدي حساب ؟"
       linkTo="/login"
-      linkAction="Log In"
+      additionalFields={[
+        { name: "username", label: "Username" },
+        { name: "address", label: "Address" },
+        { name: "phone", label: "Phone" },
+        { name: "firstname", label: "First Name" },
+        { name: "lastname", label: "Last Name" },
+        { name: "dateofbirth", label: "Date of Birth" },
+        { name: "gender", label: "Gender" },
+        { name: "role", label: "Role" }
+      ]}
     />
   );
 };
