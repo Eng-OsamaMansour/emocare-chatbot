@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import '../assets/styles/auth.css';
 
-const AuthForm = ({ title, buttonText, onSubmit, linkText, linkTo, linkAction , linkLabel }) => {
+const AuthForm = ({ title, buttonText, onSubmit, linkText, linkTo, linkAction, linkLabel }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
