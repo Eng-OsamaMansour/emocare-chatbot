@@ -7,9 +7,9 @@ const SignForm = ({ title, buttonText, onSubmit, linkText, linkTo, linkAction })
     const [username, setUsername] = useState("");
     const [address, setAddress] = useState("");
     const [phone, setPhone] = useState("");
-    const [firstname, setFirstname] = useState("");
-    const [lastname, setLastname] = useState("");
-    const [dateofbirth, setDateofbirth] = useState("");
+    const [firstName, setFirstName] = useState("");
+    const [lastName, setLastName] = useState("");
+    const [dateOfBirth, setdateOfBirth] = useState("");
     const [error, setError] = useState("");
 
     const handleSubmit = (e) => {
@@ -19,7 +19,7 @@ const SignForm = ({ title, buttonText, onSubmit, linkText, linkTo, linkAction })
             return;
         }
         setError("");
-        onSubmit(email, password);
+        onSubmit(email, password,username,address,phone,firstName,lastName,dateOfBirth);
     };
 
     return (
@@ -31,16 +31,16 @@ const SignForm = ({ title, buttonText, onSubmit, linkText, linkTo, linkAction })
                         className="sign-input"
                         type="text"
                         placeholder="الاسم الأول"
-                        value={firstname}
-                        onChange={(e) => setFirstname(e.target.value)}
+                        value={firstName}
+                        onChange={(e) => setFirstName(e.target.value)}
                         required
                     />
                     <input
                         className="sign-input"
                         type="text"
                         placeholder="اسم العائلة"
-                        value={lastname}
-                        onChange={(e) => setLastname(e.target.value)}
+                        value={lastName}
+                        onChange={(e) => setLastName(e.target.value)}
                         required
                     />
                     <input
@@ -87,8 +87,8 @@ const SignForm = ({ title, buttonText, onSubmit, linkText, linkTo, linkAction })
                         className="sign-input"
                         type="date"
                         placeholder="تاريخ الميلاد"
-                        value={dateofbirth}
-                        onChange={(e) => setDateofbirth(e.target.value)}
+                        value={dateOfBirth}
+                        onChange={(e) => setdateOfBirth(e.target.value)}
                         required
                     />
                     {error && <p className="error-message">{error}</p>}

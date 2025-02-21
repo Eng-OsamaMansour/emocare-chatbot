@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../../assets/styles/chatWindow.css";
+import { send_receive_text, send_receive_voice } from "../../services/api";
 
 const ChatContainer = () => {
   const [input, setInput] = useState("");
@@ -10,10 +11,13 @@ const ChatContainer = () => {
     setIsListening((prev) => !prev);
   };
 
-  const handleSend = () => {
+  const handleSend = async () => {
     if (input.trim()) {
       const userMessage = { text: input, sender: "user" };
-      setMessages([...messages, userMessage]);
+      const response = await send_receive_text(input).then({
+        // maybe we should add the below code here
+      });
+      setMessages([...messages, userMessage, response]);
       setInput("");
 
       // Simulate AI response with "thinking..." animation
@@ -23,7 +27,7 @@ const ChatContainer = () => {
 
         setTimeout(() => {
           const aiResponse = {
-            text: `مرحبًا! أنا إيموكير. لقد سألت: "${input}"`,
+            text: `${response.response}`,
             sender: "ai",
           };
           setMessages((prevMessages) =>

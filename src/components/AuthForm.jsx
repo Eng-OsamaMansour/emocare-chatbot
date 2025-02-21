@@ -9,10 +9,7 @@ const AuthForm = ({ title, buttonText, onSubmit, linkText, linkTo, linkAction, l
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!email.includes("@") || password.length < 6) {
-      setError("بريد إلكتروني أو كلمة مرور غير صالحة (الحد الأدنى 6 أحرف)");
-      return;
-    }
+
     setError("");
     onSubmit(email, password);
   };
@@ -23,7 +20,7 @@ const AuthForm = ({ title, buttonText, onSubmit, linkText, linkTo, linkAction, l
         <form onSubmit={handleSubmit} className="auth-form">
           <input
             className="auth-input"
-            type="email"
+            type="text"
             placeholder="أدخل بريدك الإلكتروني"
             value={email}
             onChange={(e) => setEmail(e.target.value)}

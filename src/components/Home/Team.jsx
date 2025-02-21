@@ -91,7 +91,6 @@ const Team = () => {
               </div>
             </div>
             {/* End Team Member */}
-
             {/* Team Member 3: Hamza Barabrah */}
             <div
               className="col-lg-3 col-md-6 d-flex align-items-stretch"
@@ -246,85 +245,7 @@ const Team = () => {
                 </div>
               </div>
             </div>
-            {/* End Team Member */}
-
-            {/* Team Member 7: Abdullah Abu Aiysh */}
-            <div
-              className="col-lg-3 col-md-6 d-flex align-items-stretch"
-              data-aos="fade-up"
-              data-aos-delay={300}
-            >
-              <div className="team-member">
-                <div className="member-img">
-                  <img
-                    src="/assets/img/team/team-1.jpg"
-                    className="img-fluid"
-                    alt="Abdullah Abu Aiysh"
-                  />
-                  <div className="social">
-                    <a href="">
-                      <i className="bi bi-twitter-x" />
-                    </a>
-                    <a href="">
-                      <i className="bi bi-facebook" />
-                    </a>
-                    <a href="">
-                      <i className="bi bi-instagram" />
-                    </a>
-                    <a href="">
-                      <i className="bi bi-linkedin" />
-                    </a>
-                  </div>
-                </div>
-                <div className="member-info">
-                  <h4>عبد الله أبو عيش</h4>
-                  <span>Intro to Programming</span>
-                  <p>
-                    عبد الله يجلب خبرة برمجة أساسية، مما يساعد على سد الفجوة بين الأفكار والتنفيذ.
-                  </p>
-                </div>
-              </div>
-            </div>
-            {/* End Team Member */}
-
-            {/* Team Member 8: Aziz Issa */}
-            <div
-              className="col-lg-3 col-md-6 d-flex align-items-stretch"
-              data-aos="fade-up"
-              data-aos-delay={400}
-            >
-              <div className="team-member">
-                <div className="member-img">
-                  <img
-                    src="/assets/img/team/team-1.jpg"
-                    className="img-fluid"
-                    alt="Aziz Issa"
-                  />
-                  <div className="social">
-                    <a href="">
-                      <i className="bi bi-twitter-x" />
-                    </a>
-                    <a href="">
-                      <i className="bi bi-facebook" />
-                    </a>
-                    <a href="">
-                      <i className="bi bi-instagram" />
-                    </a>
-                    <a href="">
-                      <i className="bi bi-linkedin" />
-                    </a>
-                  </div>
-                </div>
-                <div className="member-info">
-                  <h4>عزيز عيسى</h4>
-                  <span>Front End Web Development</span>
-                  <p>
-                    عزيز يركز على إنشاء تجارب مستخدم سلسة، مما يضمن أن تكون منصتنا بديهية وسهلة الوصول.
-                  </p>
-                </div>
-              </div>
-            </div>
-            {/* End Team Member */}
+            {/* End Team Member */}            
           </div>
         </div>
       </section>

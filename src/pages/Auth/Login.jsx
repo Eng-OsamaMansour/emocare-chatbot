@@ -1,13 +1,21 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import AuthForm from "../../components/AuthForm";
+import { signin } from "../../services/api";
 
 const Login = () => {
   const navigate = useNavigate();
 
-  const handleLogin = (email, password) => {
-    console.log("Logging in with:", email, password);
-    navigate("/chat");
+  const handleLogin = async (useraname, password) => {
+    console.log("Logging in with:", useraname, password);
+    try {
+      const response = await signin(useraname, password);
+      console.log('Sign-in successful', response);
+      navigate("/chat");
+    }
+    catch(error) {
+      console.log(error);
+    }
   };
 
   return (
