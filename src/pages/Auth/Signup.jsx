@@ -17,6 +17,7 @@ const Signup = () => {
       onSubmit={handleSignup}
       linkText="لدي حساب ؟"
       linkTo="/login"
+      linkAction={() => navigate("/login")}
       additionalFields={[
         { name: "username", label: "Username" },
         { name: "address", label: "Address" },

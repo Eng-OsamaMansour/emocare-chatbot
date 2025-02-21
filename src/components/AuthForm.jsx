@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import '../assets/styles/auth.css';
 
-const AuthForm = ({ title, buttonText, onSubmit, linkText, linkTo, linkAction }) => {
+const AuthForm = ({ title, buttonText, onSubmit, linkText, linkTo, linkAction , linkLabel }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -41,8 +41,21 @@ const AuthForm = ({ title, buttonText, onSubmit, linkText, linkTo, linkAction })
           <button className="auth-button" type="submit">{buttonText}</button>
         </form>
         <p className="auth-p">
-          {linkText} <a href={linkTo}>{linkAction}</a>
-        </p>
+  {linkText}{" "}
+  <a
+    href={linkTo}
+    onClick={(e) => {
+      e.preventDefault();
+      if (typeof linkAction === "function") {
+        linkAction();
+      }
+    }}
+  >
+    {linkLabel || "اضغط هنا"}
+  </a>
+</p>
+
+
       </div>
     </div>
   );
